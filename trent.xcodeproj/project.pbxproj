@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73851F9C2C07C2AC00F966BD /* trent Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 73851F9B2C07C2AC00F966BD /* trent Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73851FA12C07C2AC00F966BD /* trentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FA02C07C2AC00F966BD /* trentApp.swift */; };
+		73851FA32C07C2AC00F966BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FA22C07C2AC00F966BD /* ContentView.swift */; };
+		73851FA52C07C2AE00F966BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73851FA42C07C2AE00F966BD /* Assets.xcassets */; };
+		73851FA82C07C2AE00F966BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73851FA72C07C2AE00F966BD /* Preview Assets.xcassets */; };
+		73851FB22C07C2AE00F966BD /* trent_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */; };
+		73851FBC2C07C2AE00F966BD /* trent_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */; };
+		73851FBE2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73851F9D2C07C2AC00F966BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73851F8F2C07C2AC00F966BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73851F9A2C07C2AC00F966BD;
+			remoteInfo = "trent Watch App";
+		};
+		73851FAE2C07C2AE00F966BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73851F8F2C07C2AC00F966BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73851F9A2C07C2AC00F966BD;
+			remoteInfo = "trent Watch App";
+		};
+		73851FB82C07C2AE00F966BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73851F8F2C07C2AC00F966BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73851F9A2C07C2AC00F966BD;
+			remoteInfo = "trent Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73851FC42C07C2AE00F966BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				73851F9C2C07C2AC00F966BD /* trent Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		73851F952C07C2AC00F966BD /* trent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73851F9B2C07C2AC00F966BD /* trent Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trent Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73851FA02C07C2AC00F966BD /* trentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trentApp.swift; sourceTree = "<group>"; };
+		73851FA22C07C2AC00F966BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73851FA42C07C2AE00F966BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73851FA72C07C2AE00F966BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73851FAD2C07C2AE00F966BD /* trent Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trent Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppTests.swift; sourceTree = "<group>"; };
+		73851FB72C07C2AE00F966BD /* trent Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trent Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73851F982C07C2AC00F966BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FAA2C07C2AE00F966BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FB42C07C2AE00F966BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73851F8E2C07C2AC00F966BD = {
+			isa = PBXGroup;
+			children = (
+				73851F9F2C07C2AC00F966BD /* trent Watch App */,
+				73851FB02C07C2AE00F966BD /* trent Watch AppTests */,
+				73851FBA2C07C2AE00F966BD /* trent Watch AppUITests */,
+				73851F962C07C2AC00F966BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73851F962C07C2AC00F966BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73851F952C07C2AC00F966BD /* trent.app */,
+				73851F9B2C07C2AC00F966BD /* trent Watch App.app */,
+				73851FAD2C07C2AE00F966BD /* trent Watch AppTests.xctest */,
+				73851FB72C07C2AE00F966BD /* trent Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73851F9F2C07C2AC00F966BD /* trent Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				73851FA02C07C2AC00F966BD /* trentApp.swift */,
+				73851FA22C07C2AC00F966BD /* ContentView.swift */,
+				73851FA42C07C2AE00F966BD /* Assets.xcassets */,
+				73851FA62C07C2AE00F966BD /* Preview Content */,
+			);
+			path = "trent Watch App";
+			sourceTree = "<group>";
+		};
+		73851FA62C07C2AE00F966BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73851FA72C07C2AE00F966BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73851FB02C07C2AE00F966BD /* trent Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */,
+			);
+			path = "trent Watch AppTests";
+			sourceTree = "<group>";
+		};
+		73851FBA2C07C2AE00F966BD /* trent Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */,
+				73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "trent Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73851F942C07C2AC00F966BD /* trent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73851FC52C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent" */;
+			buildPhases = (
+				73851F932C07C2AC00F966BD /* Resources */,
+				73851FC42C07C2AE00F966BD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73851F9E2C07C2AC00F966BD /* PBXTargetDependency */,
+			);
+			name = trent;
+			productName = trent;
+			productReference = 73851F952C07C2AC00F966BD /* trent.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		73851F9A2C07C2AC00F966BD /* trent Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73851FC12C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch App" */;
+			buildPhases = (
+				73851F972C07C2AC00F966BD /* Sources */,
+				73851F982C07C2AC00F966BD /* Frameworks */,
+				73851F992C07C2AC00F966BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trent Watch App";
+			productName = "trent Watch App";
+			productReference = 73851F9B2C07C2AC00F966BD /* trent Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73851FAC2C07C2AE00F966BD /* trent Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73851FC82C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch AppTests" */;
+			buildPhases = (
+				73851FA92C07C2AE00F966BD /* Sources */,
+				73851FAA2C07C2AE00F966BD /* Frameworks */,
+				73851FAB2C07C2AE00F966BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73851FAF2C07C2AE00F966BD /* PBXTargetDependency */,
+			);
+			name = "trent Watch AppTests";
+			productName = "trent Watch AppTests";
+			productReference = 73851FAD2C07C2AE00F966BD /* trent Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73851FB62C07C2AE00F966BD /* trent Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73851FCB2C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch AppUITests" */;
+			buildPhases = (
+				73851FB32C07C2AE00F966BD /* Sources */,
+				73851FB42C07C2AE00F966BD /* Frameworks */,
+				73851FB52C07C2AE00F966BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73851FB92C07C2AE00F966BD /* PBXTargetDependency */,
+			);
+			name = "trent Watch AppUITests";
+			productName = "trent Watch AppUITests";
+			productReference = 73851FB72C07C2AE00F966BD /* trent Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73851F8F2C07C2AC00F966BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					73851F942C07C2AC00F966BD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					73851F9A2C07C2AC00F966BD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					73851FAC2C07C2AE00F966BD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 73851F9A2C07C2AC00F966BD;
+					};
+					73851FB62C07C2AE00F966BD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 73851F9A2C07C2AC00F966BD;
+					};
+				};
+			};
+			buildConfigurationList = 73851F922C07C2AC00F966BD /* Build configuration list for PBXProject "trent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73851F8E2C07C2AC00F966BD;
+			productRefGroup = 73851F962C07C2AC00F966BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73851F942C07C2AC00F966BD /* trent */,
+				73851F9A2C07C2AC00F966BD /* trent Watch App */,
+				73851FAC2C07C2AE00F966BD /* trent Watch AppTests */,
+				73851FB62C07C2AE00F966BD /* trent Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73851F932C07C2AC00F966BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851F992C07C2AC00F966BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73851FA82C07C2AE00F966BD /* Preview Assets.xcassets in Resources */,
+				73851FA52C07C2AE00F966BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FAB2C07C2AE00F966BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FB52C07C2AE00F966BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73851F972C07C2AC00F966BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73851FA32C07C2AC00F966BD /* ContentView.swift in Sources */,
+				73851FA12C07C2AC00F966BD /* trentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FA92C07C2AE00F966BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73851FB22C07C2AE00F966BD /* trent_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73851FB32C07C2AE00F966BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73851FBE2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift in Sources */,
+				73851FBC2C07C2AE00F966BD /* trent_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73851F9E2C07C2AC00F966BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73851F9A2C07C2AC00F966BD /* trent Watch App */;
+			targetProxy = 73851F9D2C07C2AC00F966BD /* PBXContainerItemProxy */;
+		};
+		73851FAF2C07C2AE00F966BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73851F9A2C07C2AC00F966BD /* trent Watch App */;
+			targetProxy = 73851FAE2C07C2AE00F966BD /* PBXContainerItemProxy */;
+		};
+		73851FB92C07C2AE00F966BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73851F9A2C07C2AC00F966BD /* trent Watch App */;
+			targetProxy = 73851FB82C07C2AE00F966BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73851FBF2C07C2AE00F966BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73851FC02C07C2AE00F966BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		73851FC22C07C2AE00F966BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trent Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = trent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akyeren.trent.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		73851FC32C07C2AE00F966BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trent Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = trent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akyeren.trent.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		73851FC62C07C2AE00F966BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				INFOPLIST_KEY_CFBundleDisplayName = trent;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akyeren.trent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		73851FC72C07C2AE00F966BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				INFOPLIST_KEY_CFBundleDisplayName = trent;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akyeren.trent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73851FC92C07C2AE00F966BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akyeren.trent-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trent Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trent Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		73851FCA2C07C2AE00F966BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akyeren.trent-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trent Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trent Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		73851FCC2C07C2AE00F966BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akyeren.trent-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "trent Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		73851FCD2C07C2AE00F966BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QLK7J43M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akyeren.trent-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "trent Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73851F922C07C2AC00F966BD /* Build configuration list for PBXProject "trent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73851FBF2C07C2AE00F966BD /* Debug */,
+				73851FC02C07C2AE00F966BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73851FC12C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73851FC22C07C2AE00F966BD /* Debug */,
+				73851FC32C07C2AE00F966BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73851FC52C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73851FC62C07C2AE00F966BD /* Debug */,
+				73851FC72C07C2AE00F966BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73851FC82C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73851FC92C07C2AE00F966BD /* Debug */,
+				73851FCA2C07C2AE00F966BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73851FCB2C07C2AE00F966BD /* Build configuration list for PBXNativeTarget "trent Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73851FCC2C07C2AE00F966BD /* Debug */,
+				73851FCD2C07C2AE00F966BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73851F8F2C07C2AC00F966BD /* Project object */;
+}
