@@ -15,6 +15,9 @@
 		73851FB22C07C2AE00F966BD /* trent_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */; };
 		73851FBC2C07C2AE00F966BD /* trent_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */; };
 		73851FBE2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */; };
+		73851FCF2C07CBD700F966BD /* ProtoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73851FCE2C07CBD700F966BD /* ProtoMono-SemiBold.ttf */; };
+		738520092C07D14000F966BD /* TimeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738520082C07D14000F966BD /* TimeText.swift */; };
+		7385200B2C09072B00F966BD /* ColorPallete.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7385200A2C09072B00F966BD /* ColorPallete.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,10 @@
 		73851FB72C07C2AE00F966BD /* trent Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trent Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73851FCE2C07CBD700F966BD /* ProtoMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProtoMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		738520072C07CFC400F966BD /* trent-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "trent-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		738520082C07D14000F966BD /* TimeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeText.swift; sourceTree = "<group>"; };
+		7385200A2C09072B00F966BD /* ColorPallete.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorPallete.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +125,11 @@
 		73851F9F2C07C2AC00F966BD /* trent Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				738520072C07CFC400F966BD /* trent-Watch-App-Info.plist */,
 				73851FA02C07C2AC00F966BD /* trentApp.swift */,
 				73851FA22C07C2AC00F966BD /* ContentView.swift */,
-				73851FA42C07C2AE00F966BD /* Assets.xcassets */,
+				738520082C07D14000F966BD /* TimeText.swift */,
+				7385200C2C09086700F966BD /* Assets */,
 				73851FA62C07C2AE00F966BD /* Preview Content */,
 			);
 			path = "trent Watch App";
@@ -149,6 +158,16 @@
 				73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "trent Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		7385200C2C09086700F966BD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				73851FCE2C07CBD700F966BD /* ProtoMono-SemiBold.ttf */,
+				73851FA42C07C2AE00F966BD /* Assets.xcassets */,
+				7385200A2C09072B00F966BD /* ColorPallete.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +304,8 @@
 			files = (
 				73851FA82C07C2AE00F966BD /* Preview Assets.xcassets in Resources */,
 				73851FA52C07C2AE00F966BD /* Assets.xcassets in Resources */,
+				73851FCF2C07CBD700F966BD /* ProtoMono-SemiBold.ttf in Resources */,
+				7385200B2C09072B00F966BD /* ColorPallete.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738520092C07D14000F966BD /* TimeText.swift in Sources */,
 				73851FA32C07C2AC00F966BD /* ContentView.swift in Sources */,
 				73851FA12C07C2AC00F966BD /* trentApp.swift in Sources */,
 			);
@@ -477,6 +499,7 @@
 				DEVELOPMENT_TEAM = 29QLK7J43M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trent-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = trent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -507,6 +530,7 @@
 				DEVELOPMENT_TEAM = 29QLK7J43M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trent-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = trent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
