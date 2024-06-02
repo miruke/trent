@@ -52,7 +52,7 @@ class TimeEntry : Hashable {
     }
     
     static func readToArray(file: String) -> [TimeEntry] {
-        return FileReader.readToArray(file: file).compactMap { str -> TimeEntry? in
+        return FileReader(file).toArray().compactMap { str -> TimeEntry? in
             let entry = TimeEntry(text: str)
             if entry.hour == nil || entry.minute == nil {
                 return nil

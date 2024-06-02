@@ -23,11 +23,15 @@ final class TimeEntry_Tests: XCTestCase {
     }
 
     func testInitializers() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Tests marked async will run the test method on an arbitrary thread managed by the Swift runtime.
+        var cut = TimeEntry(text: "07:03 WAE")
+        XCTAssertEqual(cut.hour, 7)
+        XCTAssertEqual(cut.minute, 3)
+        XCTAssertEqual(cut.rides, ["W", "A", "E"])
+        
+        cut = TimeEntry(hour: 17, minute: 33, rides: "WAE")
+        XCTAssertEqual(cut.hour, 17)
+        XCTAssertEqual(cut.minute, 33)
+        XCTAssertEqual(cut.rides, ["W", "A", "E"])
     }
     
     func testComparison() throws {
@@ -56,6 +60,15 @@ final class TimeEntry_Tests: XCTestCase {
         t1 = TimeEntry(text: "")
         t2 = TimeEntry(text: "09:35 E")
         XCTAssertNotEqual(t1.id(), t2.id())
+    }
+    
+    func testRead() throws {
+        FileReader.bundle = Bundle(for: type(of: self))
+        let res = TimeEntry.readToArray(file: "test1")
+        XCTAssertEqual(res.count, 0)
+        
+        let res2 = TimeEntry.readToArray(file: "test2")
+        XCTAssertEqual(res2.count, 6)
     }
     
     func testFind() throws {
