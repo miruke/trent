@@ -29,6 +29,8 @@
 		73F883D22C0BC85400905722 /* e1058.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73F883C42C0BBDF600905722 /* e1058.txt */; };
 		73F883D32C0BC85A00905722 /* e1060.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73F883C72C0BBDF600905722 /* e1060.txt */; };
 		73F883D42C0BC85A00905722 /* lep.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73F883C82C0BBDF600905722 /* lep.txt */; };
+		73F883D62C0C46FC00905722 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F883D52C0C46FC00905722 /* FileReader.swift */; };
+		73F883D82C0C4C2200905722 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F883D72C0C4C2200905722 /* TimeEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		73F883C62C0BBDF600905722 /* e1060.sun.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e1060.sun.txt; sourceTree = "<group>"; };
 		73F883C72C0BBDF600905722 /* e1060.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e1060.txt; sourceTree = "<group>"; };
 		73F883C82C0BBDF600905722 /* lep.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lep.txt; sourceTree = "<group>"; };
+		73F883D52C0C46FC00905722 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		73F883D72C0C4C2200905722 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 				738520072C07CFC400F966BD /* trent-Watch-App-Info.plist */,
 				73851FA02C07C2AC00F966BD /* trentApp.swift */,
 				73851FA22C07C2AC00F966BD /* ContentView.swift */,
+				73F883D72C0C4C2200905722 /* TimeEntry.swift */,
+				73F883D52C0C46FC00905722 /* FileReader.swift */,
 				738520082C07D14000F966BD /* TimeText.swift */,
 				7385200C2C09086700F966BD /* Assets */,
 				73851FA62C07C2AE00F966BD /* Preview Content */,
@@ -375,8 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F883D82C0C4C2200905722 /* TimeEntry.swift in Sources */,
 				738520092C07D14000F966BD /* TimeText.swift in Sources */,
 				73851FA32C07C2AC00F966BD /* ContentView.swift in Sources */,
+				73F883D62C0C46FC00905722 /* FileReader.swift in Sources */,
 				73851FA12C07C2AC00F966BD /* trentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

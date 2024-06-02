@@ -9,21 +9,17 @@
 import SwiftUI
 
 struct TimeText: View {
-    var text: String
+    var entry: TimeEntry
 
     var body: some View {
-        Text(self.text)
+        Text(self.entry.toText(padding: 3))
             .font(.custom("ProtoMono-SemiBold", size: 26))
-//            .border(Color.gray, width: 1)
             .padding()
             .foregroundStyle(Color("text.primary"))
-//            .background(Color("list.primary"))
-            
-            .cornerRadius(15)
             .listRowInsets(EdgeInsets())
     }
 }
 
 #Preview {
-    TimeText(text: "12:00 U 3'")
+    TimeText(entry: TimeEntry(text: "12:00 U"))
 }
