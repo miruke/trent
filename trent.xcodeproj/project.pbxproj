@@ -12,7 +12,6 @@
 		73851FA32C07C2AC00F966BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FA22C07C2AC00F966BD /* ContentView.swift */; };
 		73851FA52C07C2AE00F966BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73851FA42C07C2AE00F966BD /* Assets.xcassets */; };
 		73851FA82C07C2AE00F966BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73851FA72C07C2AE00F966BD /* Preview Assets.xcassets */; };
-		73851FB22C07C2AE00F966BD /* trent_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */; };
 		73851FBC2C07C2AE00F966BD /* trent_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */; };
 		73851FBE2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */; };
 		73851FCF2C07CBD700F966BD /* ProtoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73851FCE2C07CBD700F966BD /* ProtoMono-SemiBold.ttf */; };
@@ -31,6 +30,7 @@
 		73F883D42C0BC85A00905722 /* lep.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73F883C82C0BBDF600905722 /* lep.txt */; };
 		73F883D62C0C46FC00905722 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F883D52C0C46FC00905722 /* FileReader.swift */; };
 		73F883D82C0C4C2200905722 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F883D72C0C4C2200905722 /* TimeEntry.swift */; };
+		73F883DA2C0CC7AB00905722 /* TimeEntry_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F883D92C0CC7AB00905722 /* TimeEntry_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +79,6 @@
 		73851FA42C07C2AE00F966BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73851FA72C07C2AE00F966BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73851FAD2C07C2AE00F966BD /* trent Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trent Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppTests.swift; sourceTree = "<group>"; };
 		73851FB72C07C2AE00F966BD /* trent Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trent Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73851FBB2C07C2AE00F966BD /* trent_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		73851FBD2C07C2AE00F966BD /* trent_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trent_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -96,6 +95,7 @@
 		73F883C82C0BBDF600905722 /* lep.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lep.txt; sourceTree = "<group>"; };
 		73F883D52C0C46FC00905722 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		73F883D72C0C4C2200905722 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		73F883D92C0CC7AB00905722 /* TimeEntry_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 		73851FB02C07C2AE00F966BD /* trent Watch AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				73851FB12C07C2AE00F966BD /* trent_Watch_AppTests.swift */,
+				73F883D92C0CC7AB00905722 /* TimeEntry_Tests.swift */,
 			);
 			path = "trent Watch AppTests";
 			sourceTree = "<group>";
@@ -393,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73851FB22C07C2AE00F966BD /* trent_Watch_AppTests.swift in Sources */,
+				73F883DA2C0CC7AB00905722 /* TimeEntry_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

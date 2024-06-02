@@ -12,6 +12,9 @@ class TimeEntry : Hashable {
     var minute: Int? = nil
     var rides: [String] = []
     
+    var lastHour: Int = 4
+    var lastMinute: Int = 0
+    
     init(text:String) {
         let MIN_LENGTH = 7
         if text.count >= MIN_LENGTH {
@@ -71,12 +74,8 @@ class TimeEntry : Hashable {
      * @return true if first is later or equal than the second
      * otherwise false
      */
-    static func >= (lhs: TimeEntry, rhs: TimeEntry) -> Bool {
-        return lhs.timeValue() >= rhs.timeValue()
-    }
-    
-    static func <= (lhs: TimeEntry, rhs: TimeEntry) -> Bool {
-        return lhs.timeValue() <= rhs.timeValue()
+    func afterOrEqual(target: TimeEntry, lastHour: Int? = 4, lastMinute: Int? = 0) -> Bool {
+        return self.timeValue(lastHour: lastHour!, lastMinute: lastMinute!) >= target.timeValue(lastHour: lastHour!, lastMinute: lastMinute!)
     }
     
     func toText(padding: Int = -1) -> String {
@@ -86,16 +85,15 @@ class TimeEntry : Hashable {
         return String(format: "%02d:%02d %@", self.hour!, self.minute!, String(repeating: " ", count: (padding > 0 ? padding : 0)) + self.rides.joined())
     }
     
-    func timeValue() -> Int {
+    func timeValue(lastHour:Int=4, lastMinute:Int=0) -> Int {
         if self.hour == nil || self.minute == nil {
             return -1
         }
-        let DAY_FIRST_H = 4
-        var H = self.hour!
-        if H < DAY_FIRST_H {
-            H = H + 24
+        let val = self.hour! * 60 + self.minute!
+        if val >= 0 && val <= (lastHour * 60 + lastMinute) {
+            return val + 1440
         }
-        return (H * 60 + self.minute!)
+        return val
     }
     
     static func findNext(entries:[TimeEntry]) -> TimeEntry? {
@@ -104,9 +102,9 @@ class TimeEntry : Hashable {
     }
     
     static func findAfter(entries:[TimeEntry], hh: Int, mm: Int) -> TimeEntry? {
-        // iterate through array
         let target = TimeEntry(hour: hh, minute: mm)
-        if let index = entries.firstIndex(where: { $0 >= target }) {
+        let last = entries.last
+        if let index = entries.firstIndex(where: { $0.afterOrEqual(target: target, lastHour: last?.hour, lastMinute: last?.minute) }) {
             return entries[index]
         }
         return nil
